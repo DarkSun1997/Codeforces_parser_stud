@@ -5,7 +5,12 @@ import student
 
 url = 'https://codeforces.com/group/yskbyyufKw/contests'
 
-student.get_name_student()
+Name_stud = student.get_name_student()
+print(Name_stud)
+#Info_stud = {}
+#for name in Name_stud:
+#    Info_stud[name].append([])
+#print(Info_stud)
 
 #для прописывания прямого пути к бин файлу chrome
 options = Options()
