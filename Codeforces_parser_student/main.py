@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
+import student
 
-url = 'https://codeforces.com/problemset/status'
+url = 'https://codeforces.com/group/yskbyyufKw/contests'
+
+student.get_name_student()
 
 #для прописывания прямого пути к бин файлу chrome
 options = Options()
